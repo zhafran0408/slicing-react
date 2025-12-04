@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.touch-pan-x {
+  touch-action: pan-x;
+}
+
+.overscroll-x-contain {
+  overscroll-behavior-x: contain;
+}
+
+.swiper-pagination-bullet {
+  background: linear-gradient(90deg, rgba(247, 102, 128, 1), rgba(87, 0, 123, 1)) !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: linear-gradient(90deg, rgba(247, 102, 128, 1),  rgba(87, 0, 123, 1)) !important;
+  opacity: 1 !important;
+  width: 14px;
+  height: 14px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
